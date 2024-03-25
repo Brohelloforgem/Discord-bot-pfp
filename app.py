@@ -25,6 +25,6 @@ async def on_message(message):
     if message.content.startswith('&hey'):
         await message.channel.send('Hey, the  code is working fine')
 
-DISCORD_BOT_TOKEN = 'MTIwNjU0ODQ5MDgzOTEzNDI0OA.GdVV96.JlZh_DGzGfd6RjnKHNw7nj6mkp3sCDva5pw01U'
+DISCORD_BOT_TOKEN = ''
 
 client.run(DISCORD_BOT_TOKEN)
